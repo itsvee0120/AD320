@@ -42,7 +42,8 @@ This project utilizes the Dog API to display dog breed data, including breed gro
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/itsvee0120/AD320/dog-fetch-api.git
+   git clone https://github.com/itsvee0120/AD320.git
+   cd Dog Data Fetch API
    ```
 
 2. Open the `index.html` file in your web browser.
