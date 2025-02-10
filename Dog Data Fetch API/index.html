@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dog Fetch API</title>
+    <link rel="stylesheet" href="stylesheet.css" />
+  </head>
+  <body>
+    <h1>Dog Fetch API</h1>
+
+    <div class="container">
+      <div class="main">
+        <h2>Breed Groups:</h2>
+        <p><strong>Click on a group to view its breeds.</strong></p>
+        <ol id="group-list"></ol>
+
+        <h2>Selected Group:</h2>
+        <p id="selected-group"><em>No group selected</em></p>
+
+        <h2>Breed List:</h2>
+        <p><strong>Click on a breed to display its details.</strong></p>
+        <ol id="breeds-list"></ol>
+      </div>
+
+      <aside>
+        <div class="dog-facts">
+          <h2>Dog Facts:</h2>
+          <p id="random-facts"></p>
+        </div>
+
+        <div class="breed-details-container">
+          <h2>Breed Description:</h2>
+          <h3 id="breed-name"></h3>
+          <p id="breed-description"></p>
+          <p id="breed-details"></p>
+        </div>
+      </aside>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>

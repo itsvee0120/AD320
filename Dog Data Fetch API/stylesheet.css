@@ -1,0 +1,90 @@
+* {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1 {
+  margin: 20px;
+  text-align: center;
+}
+
+h2 {
+  margin: 10px;
+  color: rgb(7, 90, 39);
+}
+
+.breed-details-container p {
+  margin-bottom: 20px;
+}
+.container {
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+  max-width: 1200px;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  margin-right: 20px;
+}
+
+aside {
+  margin-top: 20px;
+  width: 500px;
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+}
+
+.dog-facts {
+  background-color: #f0f0f0;
+  padding: 15px;
+  border-radius: 7px;
+  border: 1px solid #000000;
+  width: 100%;
+  max-width: 500px;
+  margin-bottom: 20px;
+}
+
+.breed-details-container {
+  background-color: #f0f0f0;
+  padding: 15px;
+  border-radius: 7px;
+  border: 1px solid #000000;
+  width: 100%;
+  max-width: 500px;
+}
+
+#breeds-list,
+#group-list {
+  margin-bottom: 20px;
+  padding: 0;
+  list-style-type: none;
+  width: 600px;
+}
+
+#breeds-list li,
+#group-list li {
+  border: #000000 1px solid;
+  cursor: pointer;
+  padding: 8px;
+  background-color: #f0f0f0;
+  margin: 5px;
+  border-radius: 7px;
+}
+
+#breeds-list li:hover,
+#group-list li:hover {
+  background: rgba(0, 0, 255, 0.198);
+}
+
+#breed-name {
+  margin: 20px;
+  color: rgb(43, 12, 129);
+}
