@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>Tarot Of The Day</h1>
+    <div class="menu-container">
+      <div class="hamburger" onclick="toggleNavbar()">
+        &#9776;
+        <!-- Unicode for hamburger icon -->
+      </div>
+      <div class="navbar" id="navbar">
+        <a href="index.html">Home</a>
+        <a href="dictionary.html">Tarot Dictionary</a>
+        <a href="about.html">About</a>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="card">
+        <h2 id="card-title"></h2>
+        <h4 id="card-number"></h4>
+        <h4 id="card-suit"></h4>
+        <h4 id="card-type"></h4>
+
+        <p id="card-meaning"></p>
+
+        <p id="card-reversed-meaning"></p>
+      </div>
+    </div>
+    <div class="button-container">
+      <button id="button">Draw Card</button>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
