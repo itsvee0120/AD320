@@ -1,0 +1,29 @@
+{
+  "name": "express-html-server",
+  "version": "1.0.0",
+  "description": "A simple Express.js server to serve an HTML file (home.html) on the root route. It reads the file asynchronously and sends its content to the client.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "jest"
+  },
+  "keywords": [
+    "express",
+    "html",
+    "server",
+    "web"
+  ],
+  "author": "John Doe <johndoe@example.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/johndoe/express-html-server.git"
+  },
+  "dependencies": {
+    "express": "^4.21.2"
+  },
+  "devDependencies": {
+    "jest": "^29.0.0",
+    "supertest": "^7.0.0"
+  }
+}
