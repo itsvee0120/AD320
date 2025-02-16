@@ -16,8 +16,8 @@ This is a simple API built with Node.js and Express that provides random dog fac
 1. Clone the repository:
 
    ```bash
-   git clone <repository-url>
-   cd <repository-folder>
+   git clone https://github.com/itsvee0120/AD320.git
+   cd "Dog Data API Replica"
    ```
 
 2. Install dependencies:
