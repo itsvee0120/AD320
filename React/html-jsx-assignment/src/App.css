@@ -1,0 +1,36 @@
+.App {
+  margin: 20 auto;
+}
+
+.profile-card {
+  width: 400px;
+  height: 200px;
+  padding: 20px;
+  margin: 20px auto;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
+.profile-card p {
+  font-size: 16px;
+  color: #555;
+  margin: 5px 0;
+  text-align: center;
+}
+
+.profile-card a {
+  display: inline-block;
+  margin-top: 10px;
+  padding: 8px 15px;
+  background-color: #007bff;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.profile-card a:hover {
+  background-color: #0056b3;
+}
