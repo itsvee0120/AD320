@@ -1,7 +1,3 @@
-### **README.md Content**
-
----
-
 ## **Recipe Gallery**
 
 ### **Objective**
