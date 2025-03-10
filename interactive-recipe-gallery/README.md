@@ -13,8 +13,8 @@ This is a simple image gallery built with React. It allows users to navigate thr
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/your-username/react-gallery.git
-cd react-gallery
+git clone https://github.com/itsvee0120/AD320.git
+cd interactive-recipe-gallery
 ```
 
 ### 2. Install dependencies
